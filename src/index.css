@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  font-size: 13px;
+  font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+#app-root {
+  flex: 0 0 330px;
+  display: flex;
+  background: linear-gradient(to bottom, #002e1e, #000f0a);
+}
+
+.bunny-inputs {
+  flex: 1;
+  padding: 11px;
+  margin: 8px;
+  border: solid 1px rgba(255,255,255, 0.14);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+
+.bunny-inputs label {
+  display: block;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.bunny-inputs input {
+  margin-bottom: 15px;
+}
+
+#canvas-root {
+  flex: 1;
+  display: flex;
+  background: linear-gradient(to bottom, #4CB994, #009b67);
+}
+
+#canvas-root canvas {
+  flex: 1;
+}
